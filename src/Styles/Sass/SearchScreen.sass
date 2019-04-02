@@ -1,0 +1,56 @@
+// SearchScreen Styles
+@import '../Utils/Colors'
+@import '../Utils/Functions'
+@import '../Utils/Architecture'
+
+input
+	@include input-placeholder
+		color: $grey
+
+.productContainer
+	.row
+		&.item
+			border: 1px solid $lightGrey
+
+	.productImg
+		margin: $spacing $spacing $spacing 0
+		width: 180px
+		border-radius: 4px
+		border: 1px solid $lightGrey
+
+	.productPrice
+		margin-top: $spacing
+		margin-bottom: $spacingL
+		position: relative
+
+		.priceContainer
+
+			.shipping
+				width: 18px
+				height: 18px
+				margin: 11px 0 0 10px
+				float: left
+
+			.price
+				font-size: 24px
+				float: left
+
+		.city
+			font-size: 12px
+			padding-top: 10px
+
+	.productTitle
+		font-size: 18px
+		display: inline-block
+		word-wrap: break-word
+
+	
+// =============================================================
+/* RESPONSIVE */
+// =============================================================
+
+/** mobile --------------------------------------- **/
+@media screen and (min-width: 0px) and (max-width : 767px)
+	.productContainer
+		.productImg
+			width: 100px

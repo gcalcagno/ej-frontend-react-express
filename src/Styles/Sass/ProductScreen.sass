@@ -1,0 +1,73 @@
+// ProductScreen Styles
+@import '../Utils/Colors'
+@import '../Utils/Architecture'
+
+.productDetailContainer
+	.container
+		padding-left: $spacing
+		padding-right: $spacing
+
+	.columnRight
+
+		.groupItems
+			margin-top: $spacingL
+			margin-bottom: $spacing
+
+			.new
+				font-size: 14px
+
+			.soldQuantity
+				font-size: 14px
+
+		.title
+			font-size: 24px
+			display: inline-block
+			word-wrap: break-word
+			margin-bottom: $spacingL
+
+		.price
+			font-size: 46px
+			margin-bottom: $spacingL
+
+		.btn
+			background-color: $blue
+			width: 250px
+			max-width: 100%
+			color: $white
+			margin-bottom: $spacingL
+
+	.columnLeft
+		padding-left: $spacingL
+		width: 680px
+
+		.productImg
+			margin: $spacing
+			width: 100%
+			border-radius: 4px
+			border: 1px solid $lightGrey
+			margin-bottom: 50px
+
+		.titleDescription
+			font-size: 28px
+			margin-bottom: $spacingL
+
+		.description
+			font-size: 16px
+			margin-bottom: $spacingL
+
+
+
+// =============================================================
+/* RESPONSIVE */
+// =============================================================
+
+/** mobile --------------------------------------- **/
+@media screen and (min-width: 0px) and (max-width : 767px)
+	.productDetailContainer
+		.columnRight
+			.btn
+				width: 100%
+
+		.columnLeft
+			.productImg
+				margin: 0

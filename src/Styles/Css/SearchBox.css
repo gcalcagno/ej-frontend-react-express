@@ -1,0 +1,27 @@
+.nav {
+  background-color: #ffe600;
+  float: left;
+  width: 100%; }
+  .nav ul {
+    padding: 5px 16px;
+    margin: 0; }
+    .nav ul li {
+      list-style: none;
+      float: left;
+      padding: 0 5px; }
+      .nav ul li .brandIcon {
+        margin-right: 10px;
+        width: 53px; }
+      .nav ul li .searchIcon {
+        widthwidth: 20px; }
+      .nav ul li input {
+        font-size: 18px;
+        color: #999;
+        border-radius: 3px; }
+        .nav ul li input.searchIcon {
+          width: 20px; }
+        .nav ul li input:focus {
+          outline: none;
+          box-shadow: none; }
+          .nav ul li input:focus.form-control {
+            border: 1px solid #ccc; }

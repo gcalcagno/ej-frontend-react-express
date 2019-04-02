@@ -1,0 +1,52 @@
+.productDetailContainer .container {
+  padding-left: 16px;
+  padding-right: 16px; }
+
+.productDetailContainer .columnRight .groupItems {
+  margin-top: 32px;
+  margin-bottom: 16px; }
+  .productDetailContainer .columnRight .groupItems .new {
+    font-size: 14px; }
+  .productDetailContainer .columnRight .groupItems .soldQuantity {
+    font-size: 14px; }
+
+.productDetailContainer .columnRight .title {
+  font-size: 24px;
+  display: inline-block;
+  word-wrap: break-word;
+  margin-bottom: 32px; }
+
+.productDetailContainer .columnRight .price {
+  font-size: 46px;
+  margin-bottom: 32px; }
+
+.productDetailContainer .columnRight .btn {
+  background-color: #3483FA;
+  width: 250px;
+  max-width: 100%;
+  color: #fff;
+  margin-bottom: 32px; }
+
+.productDetailContainer .columnLeft {
+  padding-left: 32px;
+  width: 680px; }
+  .productDetailContainer .columnLeft .productImg {
+    margin: 16px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    margin-bottom: 50px; }
+  .productDetailContainer .columnLeft .titleDescription {
+    font-size: 28px;
+    margin-bottom: 32px; }
+  .productDetailContainer .columnLeft .description {
+    font-size: 16px;
+    margin-bottom: 32px; }
+
+/* RESPONSIVE */
+/** mobile --------------------------------------- **/
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .productDetailContainer .columnRight .btn {
+    width: 100%; }
+  .productDetailContainer .columnLeft .productImg {
+    margin: 0; } }
